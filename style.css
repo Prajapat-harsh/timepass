@@ -1,0 +1,149 @@
+.event{
+    width: 50%;
+    margin-left: 25%;
+}
+#one{
+    width: 50%;
+    margin-left: 25%;
+   
+    background-color: aliceblue;
+    border: 5px solid purple;
+    text-align: center;
+}
+
+*{
+   background-color: rgb(223, 218, 143);
+}
+h1{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 900;
+    font-size: 2rem;
+    background-color: blueviolet;
+    color: aliceblue;
+    padding: 10px;
+    padding-left: 30px;
+    border: 10px solid black;
+}
+#date{
+    padding: 10px;
+    padding-left: 150px;
+}
+#para{
+    font-family: "Libre Baskerville", serif;
+    font-weight: 500;
+    background-color:whitesmoke ;
+    border: 2.5px solid red;
+}
+ul {
+  list-style-type: none;   /* remove bullet points */
+  display: flex;           /* align in one line */
+  justify-content: space-around; /* evenly space items */
+  flex-wrap: wrap;         /* allow wrapping on small screens */
+  gap: 20px;               /* smaller consistent gap */
+  padding: 0;
+  margin: 0;
+}
+#img{
+    width: 50%;
+    margin-left: 25%;
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#image{
+    border: 5px solid black;
+}
+/* General Page Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fdf6e3;
+  margin: 0;
+  padding: 0;
+  color: #333;
+  line-height: 1.6;
+}
+
+/* Header */
+h1 {
+  text-align: center;
+  background: #6a5acd;
+  color: white;
+  padding: 20px;
+  margin: 0;
+}
+
+h2 {
+  color: #444;
+  margin-top: 20px;
+  text-align: center;
+}
+
+/* Event List */
+ul {
+  list-style-type: square;
+  max-width: 600px;
+  margin: 20px auto;
+  padding: 0;
+}
+
+ul li {
+  padding: 10px;
+  background: #e6e6fa;
+  margin: 8px 0;
+  border-radius: 8px;
+  transition: background 0.3s;
+}
+
+ul li:hover {
+  background: #d8bfd8;
+}
+
+/* Table Styling */
+table {
+  border-collapse: collapse;
+  width: 80%;
+  margin: 20px auto;
+  background: #fff;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+table th, table td {
+  border: 1px solid #ccc;
+  padding: 12px;
+  text-align: center;
+}
+
+table th {
+  background: #6a5acd;
+  color: white;
+}
+
+table tr:nth-child(even) {
+  background: #f2f2f2;
+}
+
+/* Links */
+a {
+  color: #6a5acd;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Footer/Back link */
+p {
+  text-align: center;
+  margin: 30px 0;
+}
+
+
+#phot{
+    height: 50vh;
+    width: 80%;
+    display: flex;
+    justify-self: center;
+    justify-content: center
+
+}
